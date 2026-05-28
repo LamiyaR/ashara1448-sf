@@ -1,0 +1,70 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+/* Light mode only for v1 — no dark mode. The dark variant is bound to a
+   `.dark` ancestor that never exists, so shadcn's baked-in `dark:` classes
+   never activate (the page stays light even under OS dark mode). */
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --color-background: hsl(var(--background));
+  --color-foreground: hsl(var(--foreground));
+  --color-card: hsl(var(--card));
+  --color-card-foreground: hsl(var(--card-foreground));
+  --color-popover: hsl(var(--popover));
+  --color-popover-foreground: hsl(var(--popover-foreground));
+  --color-primary: hsl(var(--primary));
+  --color-primary-foreground: hsl(var(--primary-foreground));
+  --color-secondary: hsl(var(--secondary));
+  --color-secondary-foreground: hsl(var(--secondary-foreground));
+  --color-muted: hsl(var(--muted));
+  --color-muted-foreground: hsl(var(--muted-foreground));
+  --color-accent: hsl(var(--accent));
+  --color-accent-foreground: hsl(var(--accent-foreground));
+  --color-destructive: hsl(var(--destructive));
+  --color-destructive-foreground: hsl(var(--destructive-foreground));
+  --color-border: hsl(var(--border));
+  --color-input: hsl(var(--input));
+  --color-ring: hsl(var(--ring));
+
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, -apple-system, sans-serif;
+  --font-serif: var(--font-cormorant), ui-serif, Georgia, "Times New Roman", serif;
+}
+
+:root {
+  /* Exact palette from build prompt §Phase 1 (matching Orange County reference). */
+  --background: 40 35% 97%; /* #FAF8F3 — warm cream */
+  --foreground: 0 0% 12%; /* near-black */
+  --card: 40 30% 99%;
+  --card-foreground: 0 0% 12%;
+  --popover: 40 30% 99%;
+  --popover-foreground: 0 0% 12%;
+  --primary: 145 50% 18%; /* #16432A — deep forest green */
+  --primary-foreground: 40 35% 97%;
+  --secondary: 0 60% 30%; /* #7A1F1F — deep maroon */
+  --secondary-foreground: 40 35% 97%;
+  --muted: 40 20% 92%;
+  --muted-foreground: 0 0% 35%;
+  --accent: 38 65% 55%; /* #D4A23A — muted gold (use sparingly) */
+  --accent-foreground: 0 0% 12%;
+  --destructive: 0 70% 45%;
+  --destructive-foreground: 40 35% 97%;
+  --border: 40 20% 88%;
+  --input: 40 20% 88%;
+  --ring: 145 50% 18%;
+  --radius: 0.5rem;
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+  }
+}
