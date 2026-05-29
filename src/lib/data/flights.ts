@@ -29,3 +29,9 @@ export const airports: Airport[] = [
     isRecommended: false,
   },
 ];
+
+export const flightsComparison =
+  "Mineta San José vs. SFO: For mehmano arriving from outside North America, SFO is the most likely choice. For mehmano arriving from within the US, all three are viable — pick on price.";
+
+export const flightsDisclaimer =
+  "Distances above are approximate driving miles and may vary with route, traffic, and bridge tolls.";

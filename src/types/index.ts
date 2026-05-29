@@ -52,3 +52,9 @@ export interface Hospital {
   googleMapsUrl: string;
   type: "ER" | "Urgent Care";
 }
+
+export interface TransitItem {
+  heading: string;
+  // supports inline [label](url) links, rendered via InlineText
+  body: string;
+}

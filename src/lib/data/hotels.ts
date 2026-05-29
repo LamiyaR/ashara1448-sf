@@ -1,5 +1,8 @@
 import type { Hotel } from "@/types";
 
+export const accommodationIntro =
+  "Recommended hotels near the masjid, listed with approximate driving distance. There will be no daily transit provided to or from hotels, so guests will need to rideshare, taxi, or drive to the masjid area each day.";
+
 // Names, addresses, and Google Maps URLs are verbatim from the build prompt §5.4.
 // Ratings and distances are intentionally left undefined for v1 — do not invent
 // numbers. Lamiya may fill them in by editing this file directly.
