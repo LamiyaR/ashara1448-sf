@@ -1,11 +1,12 @@
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
+import { asset } from "@/lib/asset";
 
 export function Hero() {
   return (
     <section className="relative isolate overflow-hidden">
       <Image
-        src="/images/sf/golden-gate.jpg"
+        src={asset("/images/sf/golden-gate.jpg")}
         alt="The Golden Gate Bridge in the San Francisco Bay Area"
         fill
         priority
