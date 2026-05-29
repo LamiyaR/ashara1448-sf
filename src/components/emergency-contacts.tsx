@@ -95,7 +95,7 @@ export function EmergencyContacts() {
             </li>
           ))}
         </ul>
-        {/* Lamiya: add a nearby urgent care entry in emergency.ts after verification. */}
+        {/* TODO: add a nearby urgent care entry in emergency.ts after verification. */}
       </div>
     </section>
   );

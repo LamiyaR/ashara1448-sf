@@ -9,5 +9,5 @@ export const hospitals: Hospital[] = [
     googleMapsUrl: "https://maps.google.com/?q=2000+Mowry+Ave,+Fremont,+CA+94538",
     type: "ER",
   },
-  // Lamiya: add 1 nearby urgent care after verification.
+  // TODO: add 1 nearby urgent care after verification.
 ];
