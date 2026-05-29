@@ -34,6 +34,8 @@ export interface FAQItem {
   // supports inline links — kept as a plain markdown-flavored string and
   // rendered via a simple inline-link renderer.
   a: string;
+  // "action" = cautionary/actionable (maroon border); default "info" (green).
+  tone?: "info" | "action";
 }
 
 export interface HalalSpot {

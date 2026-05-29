@@ -6,3 +6,11 @@ export { transitItems, transitNote } from "./transit";
 export { faqs } from "./faq";
 export { halalSpots, halalNote } from "./halal";
 export { hospitals } from "./emergency";
+export {
+  weather,
+  firstTimeTips,
+  firstTimeTipsTitle,
+  halalIntro,
+  miqaatTitle,
+  miqaatNote,
+} from "./sections";

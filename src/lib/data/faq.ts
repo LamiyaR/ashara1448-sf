@@ -3,6 +3,7 @@ import type { FAQItem } from "@/types";
 export const faqs: FAQItem[] = [
   {
     q: "Do I need a visa?",
+    tone: "action",
     a: "Visa and entry requirements vary by country and traveler. Please check the official [U.S. Department of State visa guidance](https://travel.state.gov/content/travel/en/us-visas.html) to confirm whether you need a visa, ESTA approval, or other travel documents before making travel plans.",
   },
   {
