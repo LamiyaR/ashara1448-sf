@@ -5,9 +5,17 @@ export function Bushra() {
         <h1 className="font-serif text-4xl font-semibold text-primary sm:text-5xl">
           Bushra — Ashara Mubaraka 1448H
         </h1>
-        <p className="mt-4 text-lg leading-relaxed text-foreground">
-          Welcome, mehmano. We are honored to host you for the blessed days of
-          Ashara Mubaraka at Al Masjid Al Mohammedi in Fremont.
+        <p className="mt-8 text-lg leading-loose text-foreground">
+          Aqa Maula TUS with Karam ane Ehsaan has granted Raza Mubarak to Fremont
+          <br />
+          for Ashara Mubaraka Audio Video Broadcast
+          <br />
+          <br />
+          Anjuman-e-Najmi humbly welcomes all mumineen to be
+          <br />
+          shaamil in the Barakat of Waaz Talaqqi of Dai Imam al Hussain AS
+          <br />
+          Syedna Aali Qadr Mufaddal Saifuddin TUS
         </p>
       </div>
     </section>
