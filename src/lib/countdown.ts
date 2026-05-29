@@ -1,7 +1,6 @@
-// Published countdown anchor: 1 Muharram 1448H ≈ Friday 19 June 2026, 00:00 PT
-// (PDT, UTC-7). The true start depends on local moon sighting; Lamiya may adjust
-// this to the official Anjuman-declared date when known.
-export const ASHARA_START_ISO = "2026-06-19T00:00:00-07:00";
+// Countdown anchor: 1 Moharram al-Haraam 1448H = Monday 15 June 2026, 00:00 PT
+// (PDT, UTC-7), per the official Dawoodi Bohra calendar.
+export const ASHARA_START_ISO = "2026-06-15T00:00:00-07:00";
 export const asharaStart = new Date(ASHARA_START_ISO);
 
 export interface Countdown {

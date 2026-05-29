@@ -4,8 +4,8 @@ export const accommodationIntro =
   "Recommended hotels near the masjid, listed with approximate driving distance. There will be no daily transit provided to or from hotels, so guests will need to rideshare, taxi, or drive to the masjid area each day.";
 
 // Names, addresses, and Google Maps URLs are verbatim from the build prompt §5.4.
-// Ratings and distances are intentionally left undefined for v1 — do not invent
-// numbers. Lamiya may fill them in by editing this file directly.
+// distanceFromMasjidMiles are approximate driving distances from
+// Al Masjid Al Mohammedi (1121 Old Canyon Rd, Fremont) — verify/refine as needed.
 export const hotels: Hotel[] = [
   {
     id: "doubletree-newark-fremont",
@@ -15,6 +15,7 @@ export const hotels: Hotel[] = [
     state: "CA",
     zip: "94560",
     googleMapsUrl: "https://maps.google.com/?q=39900+Balentine+Dr,+Newark,+CA+94560",
+    distanceFromMasjidMiles: 6,
   },
   {
     id: "holiday-inn-express-fremont-milpitas",
@@ -24,6 +25,7 @@ export const hotels: Hotel[] = [
     state: "CA",
     zip: "94538",
     googleMapsUrl: "https://maps.google.com/?q=42200+Albrae+St,+Fremont,+CA+94538",
+    distanceFromMasjidMiles: 6,
   },
   {
     id: "hilton-garden-inn-fremont-milpitas",
@@ -34,6 +36,7 @@ export const hotels: Hotel[] = [
     zip: "94539",
     googleMapsUrl:
       "https://maps.google.com/?q=45976+Warm+Springs+Blvd,+Fremont,+CA+94539",
+    distanceFromMasjidMiles: 10,
   },
   {
     id: "hyatt-place-fremont",
@@ -44,6 +47,7 @@ export const hotels: Hotel[] = [
     zip: "94538",
     googleMapsUrl:
       "https://maps.google.com/?q=3101+West+Warren+Ave,+Fremont,+CA+94538",
+    distanceFromMasjidMiles: 7,
   },
   {
     id: "fremont-marriott",
@@ -53,6 +57,7 @@ export const hotels: Hotel[] = [
     state: "CA",
     zip: "94538",
     googleMapsUrl: "https://maps.google.com/?q=46100+Landing+Pkwy,+Fremont,+CA+94538",
+    distanceFromMasjidMiles: 8,
   },
   {
     id: "courtyard-fremont",
@@ -62,6 +67,7 @@ export const hotels: Hotel[] = [
     state: "CA",
     zip: "94538",
     googleMapsUrl: "https://maps.google.com/?q=47000+Lakeview+Blvd,+Fremont,+CA+94538",
+    distanceFromMasjidMiles: 8,
   },
   {
     id: "courtyard-newark",
@@ -71,6 +77,7 @@ export const hotels: Hotel[] = [
     state: "CA",
     zip: "94560",
     googleMapsUrl: "https://maps.google.com/?q=34905+Newark+Blvd,+Newark,+CA+94560",
+    distanceFromMasjidMiles: 5,
   },
   {
     id: "crowne-plaza-union-city",
@@ -81,6 +88,7 @@ export const hotels: Hotel[] = [
     zip: "94587",
     googleMapsUrl:
       "https://maps.google.com/?q=32083+Alvarado-Niles+Rd,+Union+City,+CA+94587",
+    distanceFromMasjidMiles: 7,
   },
   {
     id: "good-nite-inn-fremont",
@@ -90,6 +98,7 @@ export const hotels: Hotel[] = [
     state: "CA",
     zip: "94538",
     googleMapsUrl: "https://maps.google.com/?q=4135+Cushing+Pkwy,+Fremont,+CA+94538",
+    distanceFromMasjidMiles: 8,
   },
   {
     id: "motel-6-fremont",
@@ -99,5 +108,6 @@ export const hotels: Hotel[] = [
     state: "CA",
     zip: "94539",
     googleMapsUrl: "https://maps.google.com/?q=46101+Research+Ave,+Fremont,+CA+94539",
+    distanceFromMasjidMiles: 10,
   },
 ];

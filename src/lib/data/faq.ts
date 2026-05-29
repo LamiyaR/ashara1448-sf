@@ -14,12 +14,4 @@ export const faqs: FAQItem[] = [
     q: "What weather should we expect?",
     a: "The San Francisco Bay Area has cool, foggy mornings and mild days in June. Daytime temperatures in Fremont typically range from the mid-60s to mid-70s Fahrenheit (about 18–24°C), with evenings dropping to the mid-50s (~13°C). Please pack a light jacket and a shawl for evening majlis.",
   },
-  {
-    q: "Is there a dress code at the masjid?",
-    a: "Yes. Men should wear libas-mubarak (white kurta/saaya with topi); ladies should wear rida. Ashara dress code as announced by local Anjuman will be observed.",
-  },
-  {
-    q: "Will FMB (Faiz al-Mawaid al-Burhaniyah) be available?",
-    a: "FMB arrangements will be communicated by Anjuman-e-Najmi directly. Please coordinate with the Anjuman for your jaman during Ashara.",
-  },
 ];
