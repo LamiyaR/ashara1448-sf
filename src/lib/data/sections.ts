@@ -40,6 +40,3 @@ export const halalIntro =
   "FMB (Faiz al-Mawaid al-Burhaniyah) — the community kitchen — handles most meals during Ashara, so this section is mainly for mehmano arriving early or staying after.";
 
 export const miqaatTitle = "Daily Miqaat & Majlis Timings";
-
-export const miqaatNote =
-  "Daily timings for the relay center majlis will be published closer to Ashara. Please check ocjamaat.com (or this page) for updates, or contact a coordinator.";

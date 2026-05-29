@@ -19,7 +19,7 @@ const cormorant = Cormorant_Garamond({
 export const metadata: Metadata = {
   // Update to the real domain once known (used for absolute OG image URLs).
   metadataBase: new URL(
-    process.env.NEXT_PUBLIC_SITE_URL ?? "https://ashara1448sf.ocjamaat.com",
+    process.env.NEXT_PUBLIC_SITE_URL ?? "https://sanfrancisco.thedawoodibohras.com",
   ),
   title: "Ashara Mubaraka 1448H — Relay Center, SF Bay Area",
   description:

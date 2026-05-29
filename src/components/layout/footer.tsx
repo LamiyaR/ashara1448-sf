@@ -26,14 +26,6 @@ export function Footer() {
           >
             sanfrancisco.thedawoodibohras.com
           </a>
-          <a
-            href="https://ocjamaat.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="font-medium text-secondary hover:underline"
-          >
-            ocjamaat.com
-          </a>
         </div>
 
         <p className="max-w-md text-xs leading-relaxed text-muted-foreground">

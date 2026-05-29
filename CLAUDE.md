@@ -1,7 +1,7 @@
 # CLAUDE.md — Ashara Mubaraka 1448 — SF Bay Area Relay Center
 
 ## Project overview
-Single-page Next.js 15 website serving as the canonical travel/accommodation/info source for mumineen mehmano attending Ashara Mubaraka 1448 at Al Masjid Al Mohammedi, Fremont, hosted by Anjuman-e-Najmi (San Francisco Jamaat). Mirrors the Orange County 1448 relay site (ashara1448relay.ocjamaat.com) in structure, adapted for SF Bay Area. Deployed on Vercel.
+Single-page Next.js 15 website serving as the canonical travel/accommodation/info source for mumineen mehmano attending Ashara Mubaraka 1448 at Al Masjid Al Mohammedi, Fremont, hosted by Anjuman-e-Najmi (San Francisco Jamaat). Mirrors the Orange County 1448 relay site in structure, adapted for SF Bay Area. Deployed on Vercel.
 
 ## Tech stack (do not substitute)
 - **Framework:** Next.js 15 App Router, React 19, TypeScript 5
