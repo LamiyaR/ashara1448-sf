@@ -1,13 +1,36 @@
+// export function Bushra() {
+//   return (
+//     <section className="bg-primary/5 py-8">
+//       <div className="mx-auto max-w-3xl px-4 text-center">
+//         <h1 className="font-serif text-4xl font-semibold text-primary sm:text-5xl">
+//           Bushra!
+//           <br />
+//           Ashara Mubaraka 1448H
+//         </h1>
+//         <p className="mt-8 text-lg leading-loose text-foreground">
+//           Aqa Maula TUS with Karam ane Ehsaan has granted Raza Mubarak to Fremont for Ashara Mubaraka Audio Video Broadcast
+//           <br />
+//           Anjuman-e-Najmi humbly welcomes all mumineen to be shaamil in the Barakat of Waaz Talaqqi of Dai Imam al Hussain AS
+//         </p>
+//       </div>
+//     </section>
+//   );
+// }
+
+
 export function Bushra() {
   return (
-    <section className="bg-primary/5 py-8">
+    <section className="bg-primary/5 py-6">
       <div className="mx-auto max-w-3xl px-4 text-center">
+        <p className="mb-2 text-sm uppercase tracking-[0.3em] text-primary/70">
+          Bushra
+        </p>
+
         <h1 className="font-serif text-4xl font-semibold text-primary sm:text-5xl">
-          Bushra!
-          <br />
           Ashara Mubaraka 1448H
         </h1>
-        <p className="mt-8 text-lg leading-loose text-foreground">
+
+        <p className="mx-auto mt-8 max-w-2xl text-lg leading-loose text-foreground">
           Aqa Maula TUS with Karam ane Ehsaan has granted Raza Mubarak to Fremont
           <br />
           for Ashara Mubaraka Audio Video Broadcast
@@ -16,8 +39,6 @@ export function Bushra() {
           Anjuman-e-Najmi humbly welcomes all mumineen to be
           <br />
           shaamil in the Barakat of Waaz Talaqqi of Dai Imam al Hussain AS
-          <br />
-          Syedna Aali Qadr Mufaddal Saifuddin TUS
         </p>
       </div>
     </section>
