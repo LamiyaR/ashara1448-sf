@@ -42,40 +42,4 @@ files, never the components:
 `src/lib/hijri.ts` holds the Hijri-date converter (with a `HIJRI_DAY_OFFSET`
 calibration knob) and `src/lib/countdown.ts` holds the Ashara start date.
 
-## Before publishing — verify / provide
-
-This v1 ships with placeholders that the Anjuman should confirm:
-
-1. **Official masjid photo** — drop at `public/images/hero/masjid-fremont.jpg`
-   and switch the hero from its gradient placeholder to `next/image`
-   (see comment in `src/components/hero.tsx`).
-2. **SF divider photos** — `public/images/sf/` (Golden Gate fog, SF skyline,
-   Fremont hills); pass `src` to `<SectionDivider>` in `src/app/page.tsx`.
-3. **Hijri ribbon date** — verify against the official Bohra calendar; adjust
-   `HIJRI_DAY_OFFSET` in `src/lib/hijri.ts` if off by a day.
-4. **Official Ashara start date** — `src/lib/countdown.ts` uses 19 Jun 2026 00:00
-   PT (1 Muharram 1448H); update to the Anjuman-declared date when known.
-5. **Hospital + urgent care** — verify Washington Hospital details; add an urgent
-   care entry in `emergency.ts`.
-6. **Hotel ratings/distances**, **halal listings**, **parking details**, and
-   **daily miqaat timings** — fill in when confirmed.
-7. **Logo** — replace the footer monogram with the official Ashara 1448 logo.
-
-## Deploy to Vercel
-
-1. Create a **new GitHub repo** (private until launch) and push this project:
-   ```bash
-   git remote add origin git@github.com:<you>/ashara1448-sf.git
-   git push -u origin main
-   git push origin v1.0.0
-   ```
-2. Import the repo at [vercel.com/new](https://vercel.com/new) — Vercel
-   auto-detects Next.js. No environment variables are required.
-3. (Optional) Set a custom domain such as `ashara1448sf.ocjamaat.com`
-   (coordinate with OC Jamaat IT) and set `NEXT_PUBLIC_SITE_URL` to it so the
-   OpenGraph image uses absolute URLs.
-4. Run a Lighthouse audit on the live URL (targets: Performance ≥ 90,
-   Accessibility ≥ 95, Best Practices ≥ 95, SEO ≥ 95) and a real-device pass on
-   an older Android, an iPhone, and a desktop.
-
-_Maintained by volunteers of Anjuman-e-Najmi for the benefit of mehmano._
+fit of mehmano._
