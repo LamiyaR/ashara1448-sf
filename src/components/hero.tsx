@@ -6,8 +6,8 @@ export function Hero() {
   return (
     <section className="relative isolate overflow-hidden">
       <Image
-        src={asset("/images/sf/golden-gate.jpg")}
-        alt="The Golden Gate Bridge in the San Francisco Bay Area"
+        src={asset("/images/hero/masjid-fremont.jpg")}
+        alt="Al Masjid Al Mohammedi, Fremont"
         fill
         priority
         sizes="100vw"
