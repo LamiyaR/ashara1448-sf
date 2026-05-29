@@ -9,6 +9,9 @@ import { WeatherCard } from "@/components/weather-card";
 import { EmergencyContacts } from "@/components/emergency-contacts";
 import { MiqaatTimings } from "@/components/miqaat-timings";
 import { FaqSection } from "@/components/faq-section";
+import { SectionDivider } from "@/components/layout/section-divider";
+import { Footer } from "@/components/layout/footer";
+import { BackToTop } from "@/components/back-to-top";
 
 export default function Home() {
   return (
@@ -18,14 +21,19 @@ export default function Home() {
         <Hero />
         <Countdown />
         <MasjidCard />
+        <SectionDivider tone="fog" alt="Golden Gate Bridge in fog" />
         <TabsInfo />
+        <SectionDivider tone="dusk" alt="San Francisco skyline at dusk" />
         <FirstTimeTips />
+        <SectionDivider tone="hills" alt="Fremont hills near Niles Canyon" />
         <HalalFoodSection />
         <WeatherCard />
         <EmergencyContacts />
         <MiqaatTimings />
         <FaqSection />
       </main>
+      <Footer />
+      <BackToTop />
     </>
   );
 }
