@@ -3,7 +3,9 @@ export function Bushra() {
     <section className="bg-primary/5 py-8">
       <div className="mx-auto max-w-3xl px-4 text-center">
         <h1 className="font-serif text-4xl font-semibold text-primary sm:text-5xl">
-          Bushra — Ashara Mubaraka 1448H
+          Bushra!
+          <br />
+          Ashara Mubaraka 1448H
         </h1>
         <p className="mt-8 text-lg leading-loose text-foreground">
           Aqa Maula TUS with Karam ane Ehsaan has granted Raza Mubarak to Fremont
